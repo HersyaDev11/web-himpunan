@@ -15,8 +15,8 @@ const divisiData = [
     ),
   },
   {
-    nama: 'Humas',
-    namaLengkap: 'Hubungan Masyarakat',
+    nama: 'Organisasi',
+    namaLengkap: 'Divisi Organisasi',
     deskripsi: 'Menjalin komunikasi dan relasi dengan pihak internal maupun eksternal organisasi serta mengelola citra HIMA TI.',
     warna: 'from-blue-500 to-blue-600',
     ikon: (
@@ -26,8 +26,8 @@ const divisiData = [
     ),
   },
   {
-    nama: 'Kaderisasi',
-    namaLengkap: 'Kaderisasi',
+    nama: 'Kerohanian',
+    namaLengkap: 'Divisi Kerohanian',
     deskripsi: 'Membina dan mengembangkan kader-kader organisasi melalui program pelatihan kepemimpinan dan organisasi.',
     warna: 'from-amber-500 to-amber-600',
     ikon: (
@@ -37,8 +37,8 @@ const divisiData = [
     ),
   },
   {
-    nama: 'PSDM',
-    namaLengkap: 'Pengembangan Sumber Daya Manusia',
+    nama: 'Iptek',
+    namaLengkap: 'Ilmu Pengetahuan & Teknologi',
     deskripsi: 'Meningkatkan kualitas dan kompetensi anggota melalui pelatihan soft skill dan hard skill di bidang TI.',
     warna: 'from-purple-500 to-purple-600',
     ikon: (
@@ -48,8 +48,8 @@ const divisiData = [
     ),
   },
   {
-    nama: 'Minat & Bakat',
-    namaLengkap: 'Minat dan Bakat',
+    nama: 'Olahraga',
+    namaLengkap: 'Divisi Olahraga',
     deskripsi: 'Memfasilitasi pengembangan minat dan bakat anggota di bidang seni, olahraga, dan kreativitas.',
     warna: 'from-rose-500 to-rose-600',
     ikon: (
@@ -59,8 +59,8 @@ const divisiData = [
     ),
   },
   {
-    nama: 'Sosial',
-    namaLengkap: 'Sosial & Kemanusiaan',
+    nama: 'Bismit',
+    namaLengkap: 'Bisnis dan Kemitraan',
     deskripsi: 'Menyelenggarakan kegiatan sosial dan kemanusiaan sebagai wujud kepedulian terhadap masyarakat sekitar.',
     warna: 'from-teal-500 to-teal-600',
     ikon: (

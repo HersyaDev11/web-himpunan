@@ -3,7 +3,7 @@ import { animate } from 'animejs';
 
 const statistikData = [
   {
-    angka: 150,
+    angka: 63,
     label: 'Anggota Aktif',
     suffix: '+',
     ikon: (
@@ -23,7 +23,7 @@ const statistikData = [
     ),
   },
   {
-    angka: 20,
+    angka: 5,
     label: 'Program Kerja',
     suffix: '+',
     ikon: (
@@ -33,7 +33,7 @@ const statistikData = [
     ),
   },
   {
-    angka: 10,
+    angka: 2,
     label: 'Event Tahunan',
     suffix: '+',
     ikon: (
