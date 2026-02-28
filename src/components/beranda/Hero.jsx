@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { animate } from 'animejs';
 import useParallax from './useParallax';
 
@@ -79,13 +80,13 @@ export default function Hero() {
           className="mx-auto w-20 h-1 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full mb-10"
         />
 
-        <a
+        <Link
           ref={ctaRef}
-          href="#tentang"
+          to="/tentang"
           className="inline-block bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-300 hover:to-yellow-400 text-green-900 font-bold px-8 py-4 rounded-2xl text-base sm:text-lg shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
         >
           Jelajahi Lebih Lanjut
-        </a>
+        </Link>
       </div>
 
       {/* Scroll indicator */}

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { animate } from 'animejs';
 import logo from '../assets/logo1.png';
 
@@ -54,18 +55,18 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { label: 'Beranda', href: '#beranda' },
-                { label: 'Tentang', href: '#tentang' },
-                { label: 'Kepengurusan', href: '#kepengurusan' },
-                { label: 'Kontak', href: '#kontak' },
+                { label: 'Beranda', to: '/' },
+                { label: 'Tentang', to: '/tentang' },
+                { label: 'Kepengurusan', to: '/kepengurusan' },
+                { label: 'Kontak', to: '/kontak' },
               ].map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
                     className="text-green-200/80 hover:text-white transition-colors duration-200 text-sm"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
